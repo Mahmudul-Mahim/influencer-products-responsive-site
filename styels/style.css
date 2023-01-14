@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+/* header nav section */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 34px;
+  list-style: none;
+  padding-top: 5px;
+}
+header {
+  margin-top: 87px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.page-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3a3a3a;
+}
+.nav-menu {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+.icons {
+  display: flex;
+  gap: 34px;
+}
+/* header content styles */
+/* .camera{
+    position: absolute;
+    z-index: 3;
+    padding: 29px 0px;
+}
+.camera-bg{
+    position: absolute;
+    z-index: 2;
+} */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+  
+}
+.header-titles{
+    margin-top: 146px;
+}
+.header-description {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.prebook {
+  background-color: #e02c6d;
+  border-radius: 41px;
+  width: 196px;
+  height: 44px;
+  text-align: center;
+  border-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.camera {
+  position: absolute;
+  z-index: 1;
+  padding-top: 22px;
+}
